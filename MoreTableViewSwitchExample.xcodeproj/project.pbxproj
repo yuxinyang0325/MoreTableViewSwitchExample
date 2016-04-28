@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEFEC031CD21C9800375564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC021CD21C9800375564 /* main.m */; };
+		3BEFEC061CD21C9800375564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC051CD21C9800375564 /* AppDelegate.m */; };
+		3BEFEC091CD21C9800375564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC081CD21C9800375564 /* ViewController.m */; };
+		3BEFEC0C1CD21C9800375564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC0A1CD21C9800375564 /* Main.storyboard */; };
+		3BEFEC0E1CD21C9800375564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC0D1CD21C9800375564 /* Assets.xcassets */; };
+		3BEFEC111CD21C9800375564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC0F1CD21C9800375564 /* LaunchScreen.storyboard */; };
+		3BEFEC2D1CD21E1B00375564 /* AXStretchableHeaderTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC251CD21E1B00375564 /* AXStretchableHeaderTabViewController.m */; };
+		3BEFEC2E1CD21E1B00375564 /* AXStretchableHeaderTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC261CD21E1B00375564 /* AXStretchableHeaderTabViewController.xib */; };
+		3BEFEC2F1CD21E1B00375564 /* AXStretchableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC281CD21E1B00375564 /* AXStretchableHeaderView.m */; };
+		3BEFEC301CD21E1B00375564 /* AXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC2A1CD21E1B00375564 /* AXTabBar.m */; };
+		3BEFEC311CD21E1B00375564 /* AXTabBarItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC2C1CD21E1B00375564 /* AXTabBarItemButton.m */; };
+		3BEFEC341CD21E6B00375564 /* AXSampleNavBarTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC331CD21E6B00375564 /* AXSampleNavBarTabViewController.m */; };
+		3BEFEC3D1CD21EF000375564 /* AXSub1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC361CD21EF000375564 /* AXSub1TableViewController.m */; };
+		3BEFEC3E1CD21EF000375564 /* AXSub2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC381CD21EF000375564 /* AXSub2TableViewController.m */; };
+		3BEFEC3F1CD21EF000375564 /* AXSub3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC3A1CD21EF000375564 /* AXSub3ViewController.m */; };
+		3BEFEC401CD21EF000375564 /* AXSub4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC3C1CD21EF000375564 /* AXSub4ViewController.m */; };
+		3BEFEC4A1CD2206F00375564 /* AXSampleSwipableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFEC471CD2206F00375564 /* AXSampleSwipableHeaderView.m */; };
+		3BEFEC4B1CD2206F00375564 /* AXSampleSwipableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC481CD2206F00375564 /* AXSampleSwipableHeaderView.xib */; };
+		3BEFEC4D1CD2210D00375564 /* sample-photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEC4C1CD2210D00375564 /* sample-photo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEFEBFE1CD21C9800375564 /* MoreTableViewSwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreTableViewSwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEFEC021CD21C9800375564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BEFEC041CD21C9800375564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BEFEC051CD21C9800375564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BEFEC071CD21C9800375564 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BEFEC081CD21C9800375564 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BEFEC0B1CD21C9800375564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BEFEC0D1CD21C9800375564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BEFEC101CD21C9800375564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BEFEC121CD21C9800375564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEFEC241CD21E1B00375564 /* AXStretchableHeaderTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStretchableHeaderTabViewController.h; sourceTree = "<group>"; };
+		3BEFEC251CD21E1B00375564 /* AXStretchableHeaderTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStretchableHeaderTabViewController.m; sourceTree = "<group>"; };
+		3BEFEC261CD21E1B00375564 /* AXStretchableHeaderTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AXStretchableHeaderTabViewController.xib; sourceTree = "<group>"; };
+		3BEFEC271CD21E1B00375564 /* AXStretchableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStretchableHeaderView.h; sourceTree = "<group>"; };
+		3BEFEC281CD21E1B00375564 /* AXStretchableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStretchableHeaderView.m; sourceTree = "<group>"; };
+		3BEFEC291CD21E1B00375564 /* AXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTabBar.h; sourceTree = "<group>"; };
+		3BEFEC2A1CD21E1B00375564 /* AXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTabBar.m; sourceTree = "<group>"; };
+		3BEFEC2B1CD21E1B00375564 /* AXTabBarItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTabBarItemButton.h; sourceTree = "<group>"; };
+		3BEFEC2C1CD21E1B00375564 /* AXTabBarItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTabBarItemButton.m; sourceTree = "<group>"; };
+		3BEFEC321CD21E6B00375564 /* AXSampleNavBarTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSampleNavBarTabViewController.h; sourceTree = "<group>"; };
+		3BEFEC331CD21E6B00375564 /* AXSampleNavBarTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSampleNavBarTabViewController.m; sourceTree = "<group>"; };
+		3BEFEC351CD21EF000375564 /* AXSub1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSub1TableViewController.h; sourceTree = "<group>"; };
+		3BEFEC361CD21EF000375564 /* AXSub1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSub1TableViewController.m; sourceTree = "<group>"; };
+		3BEFEC371CD21EF000375564 /* AXSub2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSub2TableViewController.h; sourceTree = "<group>"; };
+		3BEFEC381CD21EF000375564 /* AXSub2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSub2TableViewController.m; sourceTree = "<group>"; };
+		3BEFEC391CD21EF000375564 /* AXSub3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSub3ViewController.h; sourceTree = "<group>"; };
+		3BEFEC3A1CD21EF000375564 /* AXSub3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSub3ViewController.m; sourceTree = "<group>"; };
+		3BEFEC3B1CD21EF000375564 /* AXSub4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSub4ViewController.h; sourceTree = "<group>"; };
+		3BEFEC3C1CD21EF000375564 /* AXSub4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSub4ViewController.m; sourceTree = "<group>"; };
+		3BEFEC461CD2206F00375564 /* AXSampleSwipableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSampleSwipableHeaderView.h; sourceTree = "<group>"; };
+		3BEFEC471CD2206F00375564 /* AXSampleSwipableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSampleSwipableHeaderView.m; sourceTree = "<group>"; };
+		3BEFEC481CD2206F00375564 /* AXSampleSwipableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AXSampleSwipableHeaderView.xib; sourceTree = "<group>"; };
+		3BEFEC4C1CD2210D00375564 /* sample-photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sample-photo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEFEBFB1CD21C9800375564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEFEBF51CD21C9800375564 = {
+			isa = PBXGroup;
+			children = (
+				3BEFEC001CD21C9800375564 /* MoreTableViewSwitchExample */,
+				3BEFEBFF1CD21C9800375564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEFEBFF1CD21C9800375564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFEBFE1CD21C9800375564 /* MoreTableViewSwitchExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEFEC001CD21C9800375564 /* MoreTableViewSwitchExample */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFEC4C1CD2210D00375564 /* sample-photo.jpg */,
+				3BEFEC461CD2206F00375564 /* AXSampleSwipableHeaderView.h */,
+				3BEFEC471CD2206F00375564 /* AXSampleSwipableHeaderView.m */,
+				3BEFEC481CD2206F00375564 /* AXSampleSwipableHeaderView.xib */,
+				3BEFEC351CD21EF000375564 /* AXSub1TableViewController.h */,
+				3BEFEC361CD21EF000375564 /* AXSub1TableViewController.m */,
+				3BEFEC371CD21EF000375564 /* AXSub2TableViewController.h */,
+				3BEFEC381CD21EF000375564 /* AXSub2TableViewController.m */,
+				3BEFEC391CD21EF000375564 /* AXSub3ViewController.h */,
+				3BEFEC3A1CD21EF000375564 /* AXSub3ViewController.m */,
+				3BEFEC3B1CD21EF000375564 /* AXSub4ViewController.h */,
+				3BEFEC3C1CD21EF000375564 /* AXSub4ViewController.m */,
+				3BEFEC321CD21E6B00375564 /* AXSampleNavBarTabViewController.h */,
+				3BEFEC331CD21E6B00375564 /* AXSampleNavBarTabViewController.m */,
+				3BEFEC041CD21C9800375564 /* AppDelegate.h */,
+				3BEFEC051CD21C9800375564 /* AppDelegate.m */,
+				3BEFEC071CD21C9800375564 /* ViewController.h */,
+				3BEFEC081CD21C9800375564 /* ViewController.m */,
+				3BEFEC0A1CD21C9800375564 /* Main.storyboard */,
+				3BEFEC231CD21E1B00375564 /* AXStretchableHeaderTabViewController */,
+				3BEFEC011CD21C9800375564 /* Supporting Files */,
+			);
+			path = MoreTableViewSwitchExample;
+			sourceTree = "<group>";
+		};
+		3BEFEC011CD21C9800375564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFEC0D1CD21C9800375564 /* Assets.xcassets */,
+				3BEFEC0F1CD21C9800375564 /* LaunchScreen.storyboard */,
+				3BEFEC121CD21C9800375564 /* Info.plist */,
+				3BEFEC021CD21C9800375564 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BEFEC231CD21E1B00375564 /* AXStretchableHeaderTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BEFEC241CD21E1B00375564 /* AXStretchableHeaderTabViewController.h */,
+				3BEFEC251CD21E1B00375564 /* AXStretchableHeaderTabViewController.m */,
+				3BEFEC261CD21E1B00375564 /* AXStretchableHeaderTabViewController.xib */,
+				3BEFEC271CD21E1B00375564 /* AXStretchableHeaderView.h */,
+				3BEFEC281CD21E1B00375564 /* AXStretchableHeaderView.m */,
+				3BEFEC291CD21E1B00375564 /* AXTabBar.h */,
+				3BEFEC2A1CD21E1B00375564 /* AXTabBar.m */,
+				3BEFEC2B1CD21E1B00375564 /* AXTabBarItemButton.h */,
+				3BEFEC2C1CD21E1B00375564 /* AXTabBarItemButton.m */,
+			);
+			path = AXStretchableHeaderTabViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEFEBFD1CD21C9800375564 /* MoreTableViewSwitchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEFEC151CD21C9800375564 /* Build configuration list for PBXNativeTarget "MoreTableViewSwitchExample" */;
+			buildPhases = (
+				3BEFEBFA1CD21C9800375564 /* Sources */,
+				3BEFEBFB1CD21C9800375564 /* Frameworks */,
+				3BEFEBFC1CD21C9800375564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoreTableViewSwitchExample;
+			productName = MoreTableViewSwitchExample;
+			productReference = 3BEFEBFE1CD21C9800375564 /* MoreTableViewSwitchExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEFEBF61CD21C9800375564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wangxg;
+				TargetAttributes = {
+					3BEFEBFD1CD21C9800375564 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BEFEBF91CD21C9800375564 /* Build configuration list for PBXProject "MoreTableViewSwitchExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BEFEBF51CD21C9800375564;
+			productRefGroup = 3BEFEBFF1CD21C9800375564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEFEBFD1CD21C9800375564 /* MoreTableViewSwitchExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEFEBFC1CD21C9800375564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEFEC111CD21C9800375564 /* LaunchScreen.storyboard in Resources */,
+				3BEFEC0E1CD21C9800375564 /* Assets.xcassets in Resources */,
+				3BEFEC2E1CD21E1B00375564 /* AXStretchableHeaderTabViewController.xib in Resources */,
+				3BEFEC0C1CD21C9800375564 /* Main.storyboard in Resources */,
+				3BEFEC4D1CD2210D00375564 /* sample-photo.jpg in Resources */,
+				3BEFEC4B1CD2206F00375564 /* AXSampleSwipableHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEFEBFA1CD21C9800375564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEFEC311CD21E1B00375564 /* AXTabBarItemButton.m in Sources */,
+				3BEFEC091CD21C9800375564 /* ViewController.m in Sources */,
+				3BEFEC2F1CD21E1B00375564 /* AXStretchableHeaderView.m in Sources */,
+				3BEFEC061CD21C9800375564 /* AppDelegate.m in Sources */,
+				3BEFEC2D1CD21E1B00375564 /* AXStretchableHeaderTabViewController.m in Sources */,
+				3BEFEC341CD21E6B00375564 /* AXSampleNavBarTabViewController.m in Sources */,
+				3BEFEC4A1CD2206F00375564 /* AXSampleSwipableHeaderView.m in Sources */,
+				3BEFEC3F1CD21EF000375564 /* AXSub3ViewController.m in Sources */,
+				3BEFEC401CD21EF000375564 /* AXSub4ViewController.m in Sources */,
+				3BEFEC3E1CD21EF000375564 /* AXSub2TableViewController.m in Sources */,
+				3BEFEC3D1CD21EF000375564 /* AXSub1TableViewController.m in Sources */,
+				3BEFEC301CD21E1B00375564 /* AXTabBar.m in Sources */,
+				3BEFEC031CD21C9800375564 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BEFEC0A1CD21C9800375564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEFEC0B1CD21C9800375564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BEFEC0F1CD21C9800375564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEFEC101CD21C9800375564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BEFEC131CD21C9800375564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BEFEC141CD21C9800375564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEFEC161CD21C9800375564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoreTableViewSwitchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = glodon.com.MoreTableViewSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BEFEC171CD21C9800375564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoreTableViewSwitchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = glodon.com.MoreTableViewSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEFEBF91CD21C9800375564 /* Build configuration list for PBXProject "MoreTableViewSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEFEC131CD21C9800375564 /* Debug */,
+				3BEFEC141CD21C9800375564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEFEC151CD21C9800375564 /* Build configuration list for PBXNativeTarget "MoreTableViewSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEFEC161CD21C9800375564 /* Debug */,
+				3BEFEC171CD21C9800375564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEFEBF61CD21C9800375564 /* Project object */;
+}
